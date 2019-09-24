@@ -1,9 +1,9 @@
 body {
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 18px;
-  line-height: 34px;
+  line-height: 25px;
   color: #777777;
-  background: url("../images/concrete_seamless.png");
+  background: #666666;
 }
 
 * {
@@ -15,7 +15,7 @@ body {
 .container {
   width: 100%;
   max-width: 960px;
-  margin: 0 auto;
+  margin: auto;
   clear: both;
 }
 
@@ -53,7 +53,7 @@ h2, h3 {
   margin: 0 0 30px;
   overflow: auto;
   color: #ffffff;
-  background: #ffffff;
+  background: #111111;
   border-bottom: 2px solid #cccccc;
 }
 
@@ -65,10 +65,10 @@ h2, h3 {
   font-size: 30px;
   font-weight: 700;
   line-height: 90px;
-  color: #ffffff;
+  color: #4aaaa5;
   text-align: center;
   text-decoration: none;
-  background: #4aaaa5;
+  background: #111111;
 }
 
 nav {
@@ -124,7 +124,7 @@ h3, h2 {
   max-width: 960px;
   padding: 30px;
   margin: 0 0 40px;
-  background: #ffffff;
+  background: #111111;
   border: 1px solid #dddddd;
 }
 
@@ -156,9 +156,9 @@ h3, h2 {
   margin-bottom: 0;
   font-weight: 300;
   line-height: 30px;
-  color: #ffffff;
+  color: #4aaaa5;
   text-align: center;
-  background: #4aaaa5;
+  background: #111111;
   border-bottom: 0;
 }
 
@@ -207,23 +207,75 @@ input[type=submit] {
 
 @media screen and (max-width:980px) {
   body {
-    background: #777777;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    line-height: 22px;
   }
-
+  /* header */
+  #masthead {
+    padding-left: 30px;
+    background: #111111;
+    border: 2px solid #cccccc;
+  }
+  #logo {
+    background: #111111;
+    color: #4aaaa5;
+  }
+  /* Remember inline-block used to display horizontal navigational links, so a list of items side by side */
+  nav {
+    padding-right: 20px;
+  }
+  nav a {
+    display: inline-block;
+    padding-right: 10px;
+    margin-left: 10px;
+  }
+  /* main */
+  .main-section {
+    background: #111111;
+    margin: 0 0 40px;
+    max-width: 960px;
+  }
+  /* portfolio page */
+  .work h3 {
+    background: #111111;
+    color: #4aaaa5;
+  }
+  /* contact page */
+  input[type=submit] {
+    border: 2px solid #dddddd;
+    color: #4aaaa5;
+    background: #111111;
+  }
 }
 
 @media screen and (max-width: 768px) {
   body {
-    background: #333;
+    background: #666666;
+    font-size: 16px;
+    line-height: 20px;
   }
-  #masthead .container {
-    width: 100%;
+  /* header */
+  #masthead {
+    padding-left: 20px;
+  }
+  nav {
+    padding-right: 20px;
+  }
+  /* portfolio page */
+  .work {
+    margin-left: 40px;
   }
 }
 
 @media screen and (max-width: 640px) {
   body {
-    background: #4aaaa5;
+    background: #666666;
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  /*portfolio page */
+  .work {
+    width: 200px;
   }
 }
