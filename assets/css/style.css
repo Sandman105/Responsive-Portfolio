@@ -1,5 +1,5 @@
 body {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: Cairo, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 18px;
   line-height: 25px;
   color: #777777;
@@ -28,9 +28,9 @@ p:last-child {
 }
 
 h1, h2, h3 {
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: Cairo, Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
-  color: #4aaaa5;
+  color: #38C9E6;
 }
 
 h1 {
@@ -61,11 +61,11 @@ h2, h3 {
   float: left;
   width: 250px;
   height: 90px;
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: Cairo, Georgia, Times, "Times New Roman", serif;
   font-size: 30px;
   font-weight: 700;
   line-height: 90px;
-  color: #4aaaa5;
+  color: #38C9E6;
   text-align: center;
   text-decoration: none;
   background: #111111;
@@ -100,7 +100,7 @@ footer {
   color: #cccccc;
   text-align: center;
   background: #666666;
-  border-top: 8px solid #4aaaa5;
+  border-top: 8px solid #38C9E6;
   height: 50px;
 }
 
@@ -156,7 +156,7 @@ h3, h2 {
   margin-bottom: 0;
   font-weight: 300;
   line-height: 30px;
-  color: #4aaaa5;
+  color: #38C9E6;
   text-align: center;
   background: #111111;
   border-bottom: 0;
@@ -201,7 +201,7 @@ input[type=submit] {
   font-size: 18px;
   color: #ffffff;
   cursor: pointer;
-  background: #4aaaa5;
+  background: #38C9E6;
   border: 0 none;
 }
 
@@ -218,7 +218,7 @@ input[type=submit] {
   }
   #logo {
     background: #111111;
-    color: #4aaaa5;
+    color: #38C9E6;
   }
   /* Remember inline-block used to display horizontal navigational links, so a list of items side by side */
   nav {
@@ -238,12 +238,12 @@ input[type=submit] {
   /* portfolio page */
   .work h3 {
     background: #111111;
-    color: #4aaaa5;
+    color: #38C9E6;
   }
   /* contact page */
   input[type=submit] {
     border: 2px solid #dddddd;
-    color: #4aaaa5;
+    color: #38C9E6;
     background: #111111;
   }
 }
